@@ -1,0 +1,53 @@
+.description-heading {
+  font-size: 20px;
+}
+.description-text {
+  color: #fff;
+  font-size: 15px;
+  line-height: 1.8;
+  font-family: 'Roboto';
+}
+.package-heading {
+  color: #fff;
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.employee-type-container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 5px;
+}
+.employee-type-heading {
+  color: #fff;
+  font-size: 14px;
+  font-family: 'Roboto';
+}
+.location-package-container {
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.location-employee-container,
+.location-package-container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+.location-container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: 10px;
+  padding-left: 5px;
+}
+.location-icon {
+  color: #fff;
+  font-size: 22px;
+  margin-right: 6px;
+}

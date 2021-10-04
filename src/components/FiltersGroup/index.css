@@ -1,0 +1,101 @@
+.search-input-container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  border-radius: 8px;
+  border: 1px solid #7e858e;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.search-input {
+  background-color: transparent;
+  color: #fff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  padding: 6px 16px;
+}
+.search-button-container {
+  background-color: #475569;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  margin: 0;
+}
+.search-icon {
+  color: #fff;
+  width: 15px;
+  height: 15px;
+}
+@media screen and (min-width: 768px) {
+  .search-input-container {
+    display: none;
+  }
+}
+.employment-type-container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+.employment-type-heading {
+  color: #fff;
+  font-weight: 400;
+  font-family: 'Roboto';
+  font-size: 16px;
+  padding-bottom: 15px;
+}
+.employee-type-list-container {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.employee-item {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0 0 20px;
+}
+.salary-range-container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+.salary-range-heading {
+  color: #fff;
+  font-weight: 400;
+  font-family: 'Roboto';
+  font-size: 16px;
+  padding-bottom: 15px;
+}
+.salary-range-list-container {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.salary-item {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0 0 20px;
+}
+.check-label {
+  color: #fff;
+  margin-left: 10px;
+  font-size: 14px;
+}
+.link-item {
+  text-decoration: none;
+}
